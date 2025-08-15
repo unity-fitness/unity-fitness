@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #0B0F14;
+  --text: #0e1111;
+}
+
+html{ scroll-behavior: smooth; }
+body{ @apply bg-offwhite text-slate-900; }
+
+.btn-primary{ @apply inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold shadow hover:shadow-lg transition active:scale-[.98] bg-orange text-white; }
+.btn-outline{ @apply inline-flex items-center justify-center rounded-2xl px-6 py-3 font-semibold ring-2 ring-orange text-orange hover:bg-orange hover:text-white transition; }
+
+.card{ @apply rounded-2xl bg-white p-6 shadow-sm; }
+
+.section{ @apply py-16 md:py-24; }
+.section-title{ @apply text-3xl md:text-4xl font-extrabold; }
+.section-subtitle{ @apply text-slate-600 mt-2; }
+
+.nav-link{ @apply text-sm font-medium hover:text-orange transition; }
