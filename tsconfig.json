@@ -33,3 +33,10 @@
     "node_modules"
   ]
 }
+{
+  "compilerOptions": {
+    // ...tudo que já está aí...
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] }
+  }
+}
