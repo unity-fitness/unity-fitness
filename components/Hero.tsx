@@ -1,5 +1,5 @@
-export default function Hero(){
-  return (
+ export default function Hero(){
+   return (
     <section className="section pt-36 md:pt-44 bg-gradient-to-b from-white to-offwhite">
       <div className="container grid md:grid-cols-2 items-center gap-10">
         <div>
