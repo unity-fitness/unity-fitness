@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Unity Fitness - Treine com Propósito",
-  description: "CrossFit, corridas e treinos com acompanhamento real. Seu desafio, nossa união.",
+  title: "Unity Fitness — Seu desafio, nossa união",
+  description: "CrossFit, corrida e treino híbrido na Ilha do Governador.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
