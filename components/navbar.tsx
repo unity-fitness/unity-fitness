@@ -7,11 +7,11 @@ export default function Hero(){
             Treine com propósito.<br/>Resultados que você sente no dia a dia.
           </h1>
           <p className="mt-4 text-lg text-slate-600">
-            CrossFit, corrida e treino híbrido com coaching real. Programas para iniciantes e avançados, na Ilha do Governador.
+            CrossFit, corrida e HYROX em um só lugar. Treinos inteligentes para iniciantes e avançados, com acompanhamento próximo.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a className="btn-primary" href="#planos">Ver Planos</a>
-            <a className="btn-outline" href="https://wa.me/5521996283859?text=Quero%20come%C3%A7ar%20na%20Unity!" target="_blank">Falar no WhatsApp</a>
+            <a className="btn-outline" href="https://wa.me/5521996283859?text=Quero%20come%C3%A7ar%20na%20Unity!" target="_blank">Agendar Aula Grátis</a>
           </div>
           <div className="mt-6 flex items-center gap-6 text-sm text-slate-600">
             <div>★ ★ ★ ★ ★ <span className="font-semibold">+100 avaliações</span></div>
