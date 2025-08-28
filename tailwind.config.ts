@@ -8,13 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: "#0B1B2B",
-        orange: "#FF5C1A",
-        offwhite: "#F6F7FB",
-      },
-      container: {
-        center: true,
-        padding: "1rem"
+        offwhite: '#F7F7F9',
       }
     },
   },
