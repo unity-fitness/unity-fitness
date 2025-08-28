@@ -7,9 +7,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        offwhite: '#F7F7F9',
-      }
+      colors: { offwhite: "#F7F7F9" }
     },
   },
   plugins: [],
