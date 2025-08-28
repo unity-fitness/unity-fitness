@@ -1,11 +1,11 @@
 export default function Schedule(){
   const rows = [
-    ["Seg", "6h, 7h, 18h, 19h"],
-    ["Ter", "6h, 7h, 18h, 19h"],
-    ["Qua", "6h, 7h, 18h, 19h"],
-    ["Qui", "6h, 7h, 18h, 19h"],
-    ["Sex", "6h, 7h, 18h"],
-    ["Sáb", "9h"],
+    ["Seg", "6h, 7h, 8h, 9h, 12h, 17h, 18h, 19h, 20h"],
+    ["Ter", "6h, 7h, 8h, 9h, 12h, 17h, 18h, 19h, 20h"],
+    ["Qua", "6h, 7h, 8h, 9h, 12h, 17h, 18h, 19h, 20h"],
+    ["Qui", "6h, 7h, 8h, 9h, 12h, 17h, 18h, 19h, 20h"],
+    ["Sex", "6h, 7h, 8h, 9h, 12h, 17h, 18h, 19h, 20h"],
+    ["Sáb", "9h, 10h"],
   ];
   return (
     <section id="horarios" className="section">
