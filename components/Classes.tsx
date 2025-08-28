@@ -2,9 +2,12 @@
 import { useState } from "react";
 
 const tabs = [
-  { key: "crossfit", title: "CrossFit", desc: "Aulas completas de força e condicionamento. Escalável para iniciantes."},
-  { key: "corrida", title: "Corrida", desc: "Planilhas e treinos de pista/rua. Do 0 ao 21k e além."},
-  { key: "hyrox", title: "HYROX", desc: "Treino híbrido: corrida + estações funcionais, estilo competição."},
+  { key: "cross", title: "Cross", desc: "Aulas completas de força e condicionamento. Escalável para iniciantes."},
+  { key: "Gymnastics", title: "Gymnastics", desc: "Treinos com evoulação na base ginástica, suspensão(pull up/toes to bar/BMU), solo Handstand(parada de mão)"},
+  { key: "hyrox", title: "HYROX", desc: "Treino híbrido: corrida e movimentos de fácil execução, treino dinâmico e com grande queima de calorias."},
+  { key: "LPO", title: "LPO", desc: "Levantamento de peso, aula mais técnica e focada nos movimentos base do LPO (Clean & Jerk e SNAtch)."},
+  { key: "PUMP", title: "PUMP", desc: "Treino maromba, para aquele PUMP durante a semana, treino voltado para hipertrofia e estética."},
+  { key: "ENDURANCE", title: "ENDURANCE", desc: "Um dia de treino em alta intensidade com movimentos corporais, idela para aqueles que gosta de treinos intensos."},
 ];
 
 export default function Classes(){
@@ -14,7 +17,7 @@ export default function Classes(){
     <section id="aulas" className="section bg-white">
       <div className="container">
         <h2 className="section-title">Aulas & Programas</h2>
-        <p className="section-subtitle">Escolha seu caminho e evolua com acompanhamento.</p>
+        <p className="section-subtitle">Saiba mais das nossas aulas e evolua com acompanhamento.</p>
         <div className="mt-6 flex gap-2 flex-wrap">
           {tabs.map(t=>(
             <button key={t.key} onClick={()=>setActive(t.key)} className={`px-4 py-2 rounded-xl border ${active===t.key? "bg-orange text-white border-orange" : "border-slate-200"}`}>{t.title}</button>
