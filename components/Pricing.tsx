@@ -1,14 +1,14 @@
 export default function Pricing(){
   const plans = [
-    { name: "Mensal", price: 215, desc: "Acesso total às aulas.", badge: "Mais popular", link: "https://seu-link-de-pagamento-mensal" },
-    { name: "Trimestral", price: 199, desc: "Economize e mantenha a constância.", link: "https://seu-link-de-pagamento-trimestral" },
-    { name: "Semestral", price: 189, desc: "Melhor custo-benefício.", link: "https://seu-link-de-pagamento-semestral" },
+    { name: "Mensal", price: 319, desc: "Acesso total às aulas.", badge: "Mais popular", link: "https://seu-link-de-pagamento-mensal" },
+    { name: "Semestral", price: 269, desc: "Economize e mantenha a constância.", link: "https://seu-link-de-pagamento-trimestral" },
+    { name: "Anual", price: 219, desc: "Melhor custo-benefício.", link: "https://seu-link-de-pagamento-semestral" },
   ];
   return (
     <section id="planos" className="section bg-white">
       <div className="container">
         <h2 className="section-title">Planos</h2>
-        <p className="section-subtitle">Sem burocracia. Cancele quando quiser.</p>
+        <p className="section-subtitle">Sem burocracia.</p>
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           {plans.map(p=>(
             <div key={p.name} className="card">
