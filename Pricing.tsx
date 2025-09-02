@@ -1,8 +1,8 @@
 export default function Pricing(){
   const plans = [
-    { name: "Mensal", price: 215, desc: "Acesso total às aulas.", badge: "Mais popular", link: "https://seu-link-de-pagamento-mensal" },
-    { name: "Trimestral", price: 199, desc: "Economize e mantenha a constância.", link: "https://seu-link-de-pagamento-trimestral" },
-    { name: "Semestral", price: 189, desc: "Melhor custo-benefício.", link: "https://seu-link-de-pagamento-semestral" },
+    { name: "Mensal", price: 290, desc: "Acesso total às aulas.", badge: "Mais popular", link: "https://seu-link-de-pagamento-mensal" },
+    { name: "Semestral", price: 269, desc: "Economize e mantenha a constância.", link: "https://seu-link-de-pagamento-trimestral" },
+    { name: "Anual", price: 219, desc: "Melhor custo-benefício.", link: "https://seu-link-de-pagamento-semestral" },
   ];
   return (
     <section id="planos" className="section bg-white">
