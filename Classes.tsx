@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 const tabs = [
-  { key: "crossfit", title: "CrossFit", desc: "Aulas completas de força e condicionamento. Escalável para iniciantes."},
-  { key: "corrida", title: "Corrida", desc: "Planilhas e treinos de pista/rua. Do 0 ao 21k e além."},
+  { key: "cross", title: "Cross", desc: "Aulas completas de força e condicionamento. Escalável para iniciantes."},
+  { key: "PUMP", title: "PUMP", desc: "Treino voltado para músculos isolados com dinâmica."},
   { key: "hyrox", title: "HYROX", desc: "Treino híbrido: corrida + estações funcionais, estilo competição."},
 ];
 
