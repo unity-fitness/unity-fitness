@@ -8,7 +8,7 @@ export default function Pricing(){
     <section id="planos" className="section bg-white">
       <div className="container">
         <h2 className="section-title">Planos</h2>
-        <p className="section-subtitle">Sem burocracia. Cancele quando quiser.</p>
+        <p className="section-subtitle">Sem burocracia.</p>
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           {plans.map(p=>(
             <div key={p.name} className="card">
